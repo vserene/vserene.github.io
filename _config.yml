@@ -1,0 +1,170 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Andy Hsu
+title: Software Engineer - Full Stack
+#email: 
+# email_title: Email (Email title override)
+#phone: 
+# phone_title: Phone (Phone title override)
+#website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: jekyllrb
+#github_username:  vserene
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: https://www.linkedin.com/in/andyhsu117/
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+additional_links:
+  - title: "GitHub (vserene)"
+    icon: "fab fa-github"
+    url: "https://github.com/vserene"
+  - title: "GitHub (acstandyhsu)"
+    icon: "fab fa-github"
+    url: "https://github.com/acstandyhsu"
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/Japan-self-crop.jpg
+about_content: | # this will include new lines to allow paragraphs
+  With over 5 years of experience in software development, I specialize in full-stack development with a focus on finance-related functionalities such as accounts payable, payroll, 
+  and accrual accounting. At ACS Technologies, I was dedicated to delivering solutions that allowed organizations to streamline their financial processes. <br><br>
+
+
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: ACS TECHNOLOGIES GROUP INC
+        sub_title: SOFTWARE ENGINEER - FULL STACK
+        caption: May 2022-Dec 2025 | Remote
+        description: | 
+          - Engineered comprehensive full-stack financial modules, including Accounts Payable, Accrual Accounting, Payroll, and Tax Reporting, directly improving end-user financial accuracy
+          - More than 20% increased in creation of sites using Realm Accounting year to year
+          - Deployed features such as ACH checking integrations, accrual accounting, and attachments management within an Agile/Scrum framework
+          - Modified and designed SQL database tables in SQL and CRUD (create, read, update, and delete) data for application usages
+          - Developed and managed C# microservices, implementing custom controllers and services to enhance system modularity and reliability
+          - Transformed Figma designs into responsive UI components using Vue.js and JavaScript while refactoring legacy jQuery code for better maintainability
+          - Leveraged Claude AI as a force-multiplier for code debugging and initial template, reducing development turnaround time
+          - Updated and maintained Tax Calculator feature through Symmetry Software API in Golang
+
+      - layout: left
+        title: FAST ENTERPRISES, LLC
+        sub_title: IMPLEMENTATION CONSULTANT
+        caption: May 2021-May 2022 | Harrisburg, PA
+        description: |
+          - Consulted with officials to scope out requirements to automate the necessary processes with a heavy emphasis in creating their site for business taxes with proprietary Gentax Solution
+          - Developed the user interface for the registration and management of user accounts
+          - Utilized server-side languages such as VB.NET, C#, and SQL to CRUD data
+          - Utilized SOAP & REST API calls given by third-party business partners to implement the necessary solution
+
+      - layout: left
+        title: WATT FAMILY INNOVATION CENTER
+        sub_title: UPIC INTERN
+        caption: Jan 2019-July 2020 | Clemson, SC
+        description: |
+          - Developed software for the monitoring and processing of resource usage as electricity in Watt-hour in the building using Python3 and Philips Envision API
+          - Resolved technical issues and automated processes to simplify user experiences for teachers and students
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: CARDANO (ADA) NFTS POOL
+        description: | 
+          - Developed and maintained a Cardano stake pool hosted on Contabo servers using Python, Cabal, and Ubuntu
+          - Over 21,000 ADA, valued over $63,000, was staked at its peak
+          - Implement changes based on feedback from a community of over 170k members
+      - layout: left
+        title: AMAZON WEB SERVICES (AWS) CAPSTONE
+        description: |
+          - Developed an automation of scheduled maintenance alerts for Clemson Makerspace in an agile team environment using AWS Cloud Development Kit (AWS CDK) with DynamoDB, Python3, and AWS Lambda
+          - Return data analysis of equipment utilization metrics
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: CLEMSON UNIVERSITY
+        sub_title: B.S. Computer Science
+        caption: Dec 2020 | Clemson, SC
+        description: |
+          **Honors:** Palmetto Fellows, Dean's List, Order of the Omega
+
+          **Coursework:** Data Structures and Algorithms, Operating Systems, Machine Learning: Impl & Eval, Web Programming
+
+  - title: Skills
+    layout: text
+    content: |
+      - **Languages:** C, C++, Java, Python3, C#, GO, PostgreSQL, VB.NET XML, REST & SOAP API, YAML
+      - **Frontend:** ReactJS, Vue.js, JavaScript, TypeScript, jQuery, HTML, CSS
+      - **Technology:** AWS (Amazon Web Services), DynamoDB, AWS Lambda, Claude AI, Docker, Salesforce API, Philips Envision API, Apache, Postman, Vim, DBeaver, SoapUI, Linux
+  
+  - title: A Little More About Me
+    layout: text
+    content: |
+       When I'm not at my desk programming, I am active in the sport of powerlifting. I was a former certified personal trainer with an American
+       Council on Exercise license. In addition, I am big fan of hiking. Some of my favorite trails include the Skyline Loop on Mount Rainer and 
+       Burroughs. 
+      
+# Footer
+footer_show_references: true
+references_title: References on request
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
