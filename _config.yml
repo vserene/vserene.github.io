@@ -72,32 +72,28 @@ content:
         sub_title: SOFTWARE ENGINEER - FULL STACK
         caption: May 2022-Dec 2025 | Remote
         description: | 
-          - Engineered comprehensive full-stack financial modules, including Accounts Payable, Accrual Accounting, Payroll, and Tax Reporting, directly improving end-user financial accuracy
-          - More than 20% increased in creation of sites using Realm Accounting year to year
-          - Deployed features such as ACH checking integrations, accrual accounting, and attachments management within an Agile/Scrum framework
-          - Modified and designed SQL database tables in SQL and CRUD (create, read, update, and delete) data for application usages
-          - Developed and managed C# microservices, implementing custom controllers and services to enhance system modularity and reliability
-          - Transformed Figma designs into responsive UI components using Vue.js and JavaScript while refactoring legacy jQuery code for better maintainability
-          - Leveraged Claude AI as a force-multiplier for code debugging and initial template, reducing development turnaround time
-          - Updated and maintained Tax Calculator feature through Symmetry Software API in Golang
+          - Architected, implemented, and maintained full-stack financial modules such as Accounts Payable, Accrual Accounting, Payroll, and Tax Reporting, which resulted in increased creation of sites using Realm Accounting by 20% year to year
+          - Designed and implemented key features such as ACH integrations, Accounting Oversight, and Attachments Management by building C# microservices and custom controllers while constructing and optimizing SQL (T-SQL) databases utilizing Execution Plans and Datadog
+          - Transformed Figma designs into responsive user interface (UI) components using Vue.js and JavaScript while refactoring legacy jQuery code in over 25 pages
+          - Maintained Tax Calculator feature to comply with state and local laws through Symmetry Software API in Golang available for more than 50,000 customers
+          - Leveraged Claude AI as a force-multiplier for code debugging and initial templates by setting up multiple agentic windows to pull from designated files, accelerating standard development workflows by 25%
 
       - layout: left
         title: FAST ENTERPRISES, LLC
         sub_title: IMPLEMENTATION CONSULTANT
         caption: May 2021-May 2022 | Harrisburg, PA
         description: |
-          - Consulted with officials to scope out requirements to automate the necessary processes with a heavy emphasis in creating their site for business taxes with proprietary Gentax Solution
-          - Developed the user interface for the registration and management of user accounts
-          - Utilized server-side languages such as VB.NET, C#, and SQL to CRUD data
-          - Utilized SOAP & REST API calls given by third-party business partners to implement the necessary solution
+          - Consulted with Pennsylvania state officials to scope and automate registration workflows via the proprietary GenTax solution, delivering a centralized system utilized by every single new business in the state
+          - Implemented the user interface and backend logic for user account registration and management utilizing VB.NET, C#, and SQL
+          - Integrated third-party SOAP APIs to ensure strict state tax compliance and seamless data exchange
 
       - layout: left
         title: WATT FAMILY INNOVATION CENTER
         sub_title: UPIC INTERN
         caption: Jan 2019-July 2020 | Clemson, SC
         description: |
-          - Developed software for the monitoring and processing of resource usage as electricity in Watt-hour in the building using Python3 and Philips Envision API
-          - Resolved technical issues and automated processes to simplify user experiences for teachers and students
+          - Developed custom software utilizing Python3 and the Philips Envision API to accurately track and process building-wide electrical resource usage
+          - Optimized the end-user experience for students and teachers by resolving complex technical issues in automated workflows
 
   - title: Projects
     layout: list
@@ -112,8 +108,8 @@ content:
       - layout: left
         title: AMAZON WEB SERVICES (AWS) CAPSTONE
         description: |
-          - Developed an automation of scheduled maintenance alerts for Clemson Makerspace in an agile team environment using AWS Cloud Development Kit (AWS CDK) with DynamoDB, Python3, and AWS Lambda
-          - Return data analysis of equipment utilization metrics
+          - Architected and implemented an automation of scheduled maintenance alerts for Clemson Makerspace in an agile team environment using AWS Cloud Development Kit (AWS CDK) with DynamoDB, Python3, and AWS Lambda
+          - Returned data analysis of equipment utilization metrics
 
   - title: Education
     layout: list
@@ -132,7 +128,8 @@ content:
     content: |
       - **Languages:** C, C++, Java, Python3, C#, GO, PostgreSQL, VB.NET XML, REST & SOAP API, YAML
       - **Frontend:** ReactJS, Vue.js, JavaScript, TypeScript, jQuery, HTML, CSS
-      - **Technology:** AWS (Amazon Web Services), DynamoDB, AWS Lambda, Claude AI, Docker, Salesforce API, Philips Envision API, Apache, Postman, Vim, DBeaver, SoapUI, Linux
+      - **Cloud & DevOps:** AWS (Amazon Web Services), DynamoDB, AWS Lambda, Docker, Apache, Vim, Linux
+      - **Tools & API:** REST API & SOAP API, Postman, DBeaver, SoapUI, Salesforce API, Philips Envision API, Claude AI
   
   - title: A Little More About Me
     layout: text
